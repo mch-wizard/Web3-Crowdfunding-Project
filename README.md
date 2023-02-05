@@ -7,3 +7,5 @@
 - Goerli
 - React.js
 - Tailwind CSS
+
+### Smart Contract repo: https://github.com/mch-wizard/Web3-Solidity-Smart-Contract
