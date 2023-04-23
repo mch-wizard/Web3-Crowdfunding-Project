@@ -20,7 +20,7 @@ const DisplayCampaigns = ({ title, isLoading, campaigns }) => {
         )}
 
         {!isLoading && campaigns.length === 0 && (
-          <p>You have not created any campaigns yet.</p>
+          <p className="font-epilogue text-[14px] text-white text-center">You have not created any campaigns yet.</p>
         )}
 
         {!isLoading && campaigns.length > 0 && campaigns.map((campaign) => <FundCard
